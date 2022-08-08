@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,900;1,100&family=Mouse+Memoirs&family=Open+Sans:wght@300&family=Roboto:wght@100;300;500;900&display=swap');
+
+
+body{
+    font-family: font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*----------------------MENU-------------------*/
+/*---------------------------------------------*/
+
+#menu li > a {
+     font-size:17px ;
+     font-weight: bold;
+     color: black;
+
+}
+#memu form > button {
+    font-size: 17px;
+    font-weight: bolder; 
+
+}
+
+.carousel-inner{
+    max-height:30rem !important;
+    
+}
+/* ------------MEDIA QUERIES-------*/
+@media (max-width:768px)
+#sections{
+    width:90% !important;
+}
+footer{
+    background: gray;
+    min-width: 100px;
+    background-color: black;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#icono i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
